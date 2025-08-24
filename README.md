@@ -16,7 +16,7 @@ Perfect for developers who want to **start building immediately**, without wrest
 
 ## ✨ Why Choose Qwikstart Next?  
 
-Forget the noise of `create-next-app`. With **Qwikkstart Next**, you get a **minimal, production-ready Next.js setup** instantly:  
+Forget the noise of `create-next-app`. With **Qwikstart Next**, you get a **minimal, production-ready Next.js setup** instantly:  
 
 - 🚀 **Zero Setup Hassle** – Skip configs, start coding  
 - 🎨 **Shadcn UI Built-In** – Choose components at install  
