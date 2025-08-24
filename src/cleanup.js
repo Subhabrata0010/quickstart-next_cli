@@ -8,7 +8,6 @@ export async function cleanupAssets() {
   const appDir = path.join(projectRoot, "app");
 
   try {
-    // ✅ Wipe contents of public/
     if (fs.existsSync(publicDir)) {
       fs.readdirSync(publicDir).forEach((file) => {
         const filePath = path.join(publicDir, file);
@@ -17,7 +16,6 @@ export async function cleanupAssets() {
       console.log(chalk.green("🧹 Cleaned up /public folder"));
     }
 
-    // ✅ Remove favicon.ico from app/
     const faviconPath = path.join(appDir, "favicon.ico");
     if (fs.existsSync(faviconPath)) {
       fs.rmSync(faviconPath, { force: true });
