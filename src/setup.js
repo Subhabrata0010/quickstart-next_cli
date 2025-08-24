@@ -3,6 +3,8 @@ import { execa } from "execa";
 import chalk from "chalk";
 import path from "path";
 import { setupShadcn } from "./shadcn.js";
+import { cleanupAssets } from "./cleanup.js";
+import { createBoilerplate } from "./boilerplate.js";
 
 export async function setupProject(appName, lang) {
   const spinner = ora("Creating Next.js app...").start();
@@ -30,9 +32,11 @@ export async function setupProject(appName, lang) {
     process.chdir(projectPath);
 
     await setupShadcn();
+    await createBoilerplate(lang);
+    await cleanupAssets();
 
     console.log(chalk.green("\n✅ Project setup complete!"));
-    console.log(chalk.cyan(`\n👉 cd ${appName} && npm install && npm run dev`));
+    console.log(chalk.cyan(`\n👉 Just \n cd ${appName} \n in a new terminal`));
 
     await execa("npm", ["install"], { stdio: "inherit" });
     await execa("npm", ["run", "dev"], { stdio: "inherit" });
