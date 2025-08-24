@@ -14,9 +14,9 @@ Perfect for developers who want to **start building immediately**, without wrest
 
 ---
 
-## ✨ Why Choose Quickstart Next?  
+## ✨ Why Choose Qwikstart Next?  
 
-Forget the noise of `create-next-app`. With **Quickstart Next**, you get a **minimal, production-ready Next.js setup** instantly:  
+Forget the noise of `create-next-app`. With **Qwikkstart Next**, you get a **minimal, production-ready Next.js setup** instantly:  
 
 - 🚀 **Zero Setup Hassle** – Skip configs, start coding  
 - 🎨 **Shadcn UI Built-In** – Choose components at install  
@@ -24,7 +24,7 @@ Forget the noise of `create-next-app`. With **Quickstart Next**, you get a **min
 - ⚡ **Tailwind v4 Ready** – Pre-configured with `tw-animate-css`  
 - 🔥 **Hackathon Friendly** – Get running in <30s  
 
->If `create-next-app` is the **raw clay**, **Qwikstart Next** is the **ready-to-build sculpture**.  
+>If `create-next-app` is the raw clay, **Qwikstart Next** is the **ready-to-build sculpture**.  
 
 ---
 
