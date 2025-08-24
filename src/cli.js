@@ -6,11 +6,11 @@ import { setupProject } from "./setup.js";
 const program = new Command();
 
 program
-  .name("quickstart_next")
+  .name("qwikstart-next")
   .description("Quickly bootstrap a Next.js project with Shadcn UI")
   .argument("<app-name>", "Name of your Next.js app")
   .action(async (appName) => {
-    console.log(chalk.cyan("🚀 Quickstart Next.js setup"));
+    console.log(chalk.cyan("🚀 Qwikstart Next.js setup"));
 
     const response = await prompts({
       type: "select",
