@@ -34,7 +34,6 @@ export async function setupProject(appName, lang) {
     console.log(chalk.green("\n✅ Project setup complete!"));
     console.log(chalk.cyan(`\n👉 cd ${appName} && npm install && npm run dev`));
 
-    // ⚡ Optional: auto install & run (uncomment if you want auto-start)
     await execa("npm", ["install"], { stdio: "inherit" });
     await execa("npm", ["run", "dev"], { stdio: "inherit" });
 
