@@ -6,7 +6,7 @@ import { setupProject } from "./setup.js";
 const program = new Command();
 
 program
-  .name("quickstart-next")
+  .name("quickstart_next")
   .description("Quickly bootstrap a Next.js project with Shadcn UI")
   .argument("<app-name>", "Name of your Next.js app")
   .action(async (appName) => {
@@ -17,7 +17,7 @@ program
       name: "lang",
       message: "Choose language:",
       choices: [
-        { title: "TypeScript (default)", value: "ts" },
+        { title: "TypeScript", value: "ts" },
         { title: "JavaScript", value: "js" }
       ],
       initial: 0
