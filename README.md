@@ -42,7 +42,7 @@ Forget the noise of `create-next-app`. With **Quickstart Next**, you get a **min
 ## 🚀 Usage  
 
 ```jsx
-npx quickstart-next <your-app>
+npx qwikstart-next <your-app>
 ```
 
 ### You’ll be prompted to choose:
@@ -53,21 +53,21 @@ npx quickstart-next <your-app>
 
 ### Example:
 ```jsx
-npx quickstart-next <your-app>
+npx qwikstart-next <your-app>
 ```
 🛠 Example Output
 
 ```jsx
 my-app/
 ├── node_modules
-├── app/
+├── app/               ← favicon.ico removed
 │   ├── layout.tsx
-│   ├── page.tsx
+│   ├── page.tsx       ← cleaned boilerplate
 │   └── globals.css
 ├── components/        ← Shadcn components here
 ├── public/            ← Cleaned (logos & svgs removed)
-├── tailwind.config.ts
-├── tsconfig.json
+├── postcss.config.mjs
+├── components.json
 └── package.json
 ...
 ```
@@ -79,6 +79,7 @@ my-app/
 ```
 ---
 ## 🎨 Shadcn Components
+Use **space bar** to select components to install and **arrow keys** to toggle between components
 ```jsx
 ? Select Shadcn components to install:
 › (*) Button    <-- selected
@@ -87,20 +88,22 @@ my-app/
 › ( ) Toast
 ```
 ---
-## 🏁 Quickstart
+## 🏁 Qwikstart
 Just run and it will auto run your app
 ```jsx
-npx quickstart-next <your-app>
+npx qwikstart-next <your-app>
 ```
 to use the terminal split the previous one or open a new terminal and run 
 ```bash
 cd <your-app>
 ```
 # Now open:
+```js
 http://localhost:3000
-
+```
+---
 ## 📊 Quick Comparison
-| Feature | ``create-next-app`` | Quickstart Next ⚡|
+| Feature | ``create-next-app`` | Qwikkstart Next ⚡|
 | --- | --- | -- |
 |Next.js App Router|	✅| ✅|
 |TailwindCSS v4|❌ (manual)	|✅ pre-configured|
@@ -133,7 +136,7 @@ Clone the repo on your local machine
 git clone https://github.com/Subhabrata0010/qwikstart-next.git
 ```
 ```jsx
-cd quickstart-next
+cd qwikstart-next
 ```
 Install dependencies and link in your local machine to test in global scope
 ```jsx
@@ -154,7 +157,7 @@ git commit -m "Add your feature description".
 ```
 Push to your feature branchgit 
 ```jsx
-push origin feature/my-feature.
+push origin feature/your-feature.
 ```
 Submit a pull request and wait for approval.
 
@@ -169,4 +172,4 @@ Submit a pull request and wait for approval.
 
 Pro Tip: Use Quickstart Next in your next hackathon or MVP build. It’s like create-next-app, but on steroids.
 
->🔥 With quickstart-next, you spend 0 mins configuring and 100% coding.
+>🔥 With qwikstart-next, you spend 0 mins configuring and 100% coding.
